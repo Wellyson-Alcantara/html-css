@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="6f8eca5e-e709-4c9e-b544-108f149466f4.webp" type="image/x-icon">
+    <title>Fonte em CSS</title>
+    <style>
+        body { /* Quando indicamos mais de uma família na sequência, estamos indicando ao navegador que dê preferência para a primeira. Caso ela não seja encontrada, tente a próxima. Isso é (safe fonte), lembrando que a última tem que ser uma família genérica, exemplo: serif, sans-serif ou monospaced. */
+            font-family: 'Courier New', Courier, monospace;
+            /* Medidas Absolutas.
+            cm, mm, in( polegada), px (pixel), pt(ponto), pc(paica)
+            
+            Medidas Relativas.
+            em (medida atual da fonte), ex (altura x da fonte), rem (medidada da fonte configurada no body), vw (largura da viewport "largura da tela"), vh (altura da viewport "altura de tela"), % (porcentagem)
+            |16px geralmente é = 1em|
+            */
+            font-size: 1.5em; /* Serve para alterar o tanho da fonte */
+            text-align: justify; /* ALINHAR O TEXTO */
+            font-weight: bolder; /* NEGRITO */
+            font-style: italic; /* ÍTALICO */
+            text-decoration: underline; /* SUBLINHADO */
+            /* PESOS LITERAIS: Ligther, Normal, Bold, Bolder. Também existe as váriações númericas, exemplo: 100, 200, 300, etc... OBS: antes de usar qualquer um dos pesos númericos, faça uma breve pesquisa para saber se a fonte irá suporta-lá. */
+
+            /* Palavras de as pessoas confundem: Weigth(PESO), Width(LARGURA), Heigth(ALTURA) */
+        } 
+
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-style: italic;
+            /* shorthand font: é uma forma de simplificar seu código!
+            
+            - font-style -> font-weigth -> font-size -> font-family. É necessário que use o código nessa ordem!!!*/
+            
+            font: italic bolder 3em 'Work Sans', sans-serif;
+            /* Isso é o shorthand font! */
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatum similique consectetur atque maxime nesciunt dolore quas vitae? Animi iusto nisi optio iure nulla nemo in, dolore esse sint accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi totam perferendis dicta odio at minus sint? Impedit totam pariatur ab minus eum, soluta architecto quam beatae doloremque possimus odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos ipsam distinctio laboriosam rerum labore exercitationem, optio totam cumque quisquam ducimus praesentium animi inventore, quasi odio nam quod ratione nobis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, libero animi ducimus cupiditate rem non, commodi labore nisi sit nobis, aspernatur ipsam ullam repellendus pariatur. Laboriosam, minima blanditiis? Ducimus, nam!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore molestiae est accusantium, doloremque vero adipisci at obcaecati animi cum officia totam, et ipsam fugiat consectetur, quisquam consequatur. Eveniet, quis sequi.</p>
+
+    <p style="text-align: center;"><a href="fonte02.html" target="_self" rel="next">Ir para à página Cor 02</a></p>
+</body>
+</html>

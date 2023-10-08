@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="phoenix logo-200.webp" type="image/x-icon">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+
+    <video width="600" poster="imagens/limoes-capa.png" controls autoplay loop>
+        <source src="midia/meu-video(1080p).mp4" type="video/mp4">
+        <source src="midia/Meu-Video3(1080P).webm" type="video/webm">
+        <source src="midia/meu-video4(1080p).ogv" type="video/webm"> <!-- O parâmetro src="" diz onde está o arquivo desejado. O parâmetro type="" diz de que tipo de midia type derá usada.-->
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video> <!-- Os videos devem ser postos na ordem de sua preferência, lembrando que existe a hierarquia na qual o site começa a buscar de cima para baixo.-->
+
+    <!-- Para inserir um em nosso site, podemos utilizar a nova tag <video> da HTML5, caso o arquivo esteja hospedado no nosso próprio servidor. Vamos configurar alguns atributo:
+    °   |width| vai indicar a largura que o video vai ter na tela. Nesse exemplo, 600px.
+    °   |poster| configura uma imagem que vai aparecer como uma capa, enquato o visitante não aperta o play para reproduzir o vídeo.
+    °   |controls| vai configurar se os controles do vídeo vão aparecer na parte inferior da midia. Por padrão, os controles não aparecerão, mas basta colocar a palavra controls na tag <video>.
+    °   |autoplay| diz para o navegador se o vídeo vai começar a tocar automaticaente, assim que a página for carregada.-->
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/b9JEhQbpUsA?si=1N3i2qf3ktNIcpsD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe src="https://player.vimeo.com/video/296219988?h=476eee5ca9" width="600" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

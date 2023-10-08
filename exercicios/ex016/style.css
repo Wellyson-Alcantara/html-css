@@ -1,0 +1,32 @@
+@charset "UTF-8"; /* O @ aqui no CSS se chama regra! */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #40E690, #20995B);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px; /* coloca uma borda na sua página */
+    box-shadow: 5px 5px 15px rgba(67, 104, 81, 0.637); /* coloca uma sombra na sua página. O primeiro prâmetro é quanto essa sobra irá para o lado, o segundo é quanto ela irá andar para baixo, o tercei é quanto ela irá espalhar e o último é a cor e transparencia da sombra. */
+    width: 600px; /* regula a largura da página */
+    padding: 10px; /* aumenta a margem do sua página, assim não irá faltar texto. */
+    margin: auto; /* centraliza sua página automaticamente. */
+}
+
+h1 {
+    color: #995619;
+    text-align: center;
+    text-shadow: 1px 1px 2px #914703a2;
+}
+
+h2 {
+    color: darkorange;
+}
+
+p {
+    text-align: justify;
+}

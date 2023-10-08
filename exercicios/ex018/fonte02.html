@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="6f8eca5e-e709-4c9e-b544-108f149466f4.webp" type="image/x-icon">
+    <title>Fonte Externas</title>
+    <style>
+        /* Essa regra é para usar qualquer tipo de fonte que não esteje no google fonts e caso seu cliente deseje algo personalizado ou diferente. Obs: preste muita ateção no código ou ele não irá funcionar! */
+        @font-face {
+            font-family: 'Love';
+            src: url('fontes/love_larry/love\ larry\ otf.otf') format('opentype'),
+            url('fontes/love_larry/love\ larry\ ttf.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* 
+                Tipos de formatos()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-att (Apple Adevance Typography)
+                - svg
+            */
+        }
+        @font-face {
+            font-family: 'London';
+            src: url('fontes/old_london/OldLondon.ttf') format('truetype'), url('fontes/old_london/Olondona.otf') format('opentype');
+            font-weight: normal;
+            font-size: normal;
+        }
+        body{
+            font-family: 'London', Helvetica, sans-serif;
+            font-size: 1.5em;
+        }
+
+        h1 {
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+        h2 {
+            font-family: 'Love', Times, serif;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quo minus a natus amet deleniti officiis eligendi tempore sequi aut labore eum, voluptatibus, alias dolores, ab corrupti. Nesciunt, quis alias.</p>
+    <h2>Cuidado ao Digitar seu Código!</h2>
+    <p>Ao dígitar seu código preste bastante atenção pois caso escreva algo errado ele não irá funcionar!</p>
+
+    <p style="text-align: center;"><a href="fonte01.html" target="_self" rel="prev">Voltar para a página fonte 01</a></p>
+</body>
+</html>

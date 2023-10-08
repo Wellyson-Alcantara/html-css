@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="phoenix logo-200.webp" type="image/x-icon">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="externos">repositório público no GitHub</a></p> <!-- A tag <a> junto com o atributo href="https://etc.." que está contido na tag serve para colocar um hyperlink no seu site, o parâmetro target="_blank" serve para abrir ua segunda aba, para que o usuário não perca o seu site. Já o atributo rel="externos" serve para indicar para o algorito computacional que se trata de um link de um site externo que não pertence a você.-->
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="externos">canal gratuito no YouTube</a></p>
+
+    <h1>Usando links Internos</h1>
+    <p>Esta é a primeira página do meu site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a></p> <!-- O rel="next" é um atributo que indica qual é a próxima página.-->
+    <p>Você também pode acessar nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p> <!-- o atributo target="_self" significa  na própria aba-->
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/carboidratos.pdf" download="carboidratos.pdf" type="application/pdf">Baixar o lovro em PDF</a></li>
+        <li><a href="livro/carboidratos.zip" download="carboidratos.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="6f8eca5e-e709-4c9e-b544-108f149466f4.webp" type="image/x-icon">
+    <title>Borda Personalizada</title>
+    <style>
+        h1 {
+            border: 9px solid transparent;
+            padding: 10px;
+            border-image-source: url('borda.png');
+            border-image-slice: 27;
+            border-image-repeat: repeat;
+
+           /* border-image: url('border.png') 27 repeat; Isso é uma ShortHand, para usa-lá deve-se coloca-lá na ordem apresentada.*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+</body>
+</html>

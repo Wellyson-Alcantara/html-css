@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: linear-gradient(90deg, rgb(12, 201, 201), rgb(37, 151, 37));
+}
+
+h1 {
+    background-color: rgb(118, 252, 205);
+    box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.315);
+}
+
+p {
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.315);
+    font-size: 1.1em;
+}
+
+ul {
+    box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.315);
+    background-color: rgba(0, 255, 255, 0.267);
+}
