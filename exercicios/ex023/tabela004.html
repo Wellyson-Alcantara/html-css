@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_io (1)/favicon.ico" type="image/x-icon">
+    <title>Colgroup e Span</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 300px;
+            height: 200px;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        col.c1 {
+            background-color: #E3C386;
+        }
+
+        col.c2 {
+            background-color: #DEA12F;
+        }
+
+        col.c3 {
+            background-color: #AC7C24;
+        }
+    </style>
+</head>
+<body>
+    <h1>Adicionado estilos em colunas utilizando o Colgroup e o Span.</h1>
+
+    <table>
+        <colgroup>
+            <col class="c1">
+            <col class="c2" span="2">
+            <col class="c3">
+            <col class="c1">
+        </colgroup>
+        <tbody>
+            <tr>
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+                <td>D1</td>
+                <td>E1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+                <td>D2</td>
+                <td>E2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+                <td>D3</td>
+                <td>E3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+                <td>D4</td>
+                <td>E4</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
