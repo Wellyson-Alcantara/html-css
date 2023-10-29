@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_io (1)/favicon.ico" type="image/x-icon">
+    <title>Uso de Iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum esse saepe voluptas ex optio quo magnam, sequi animi sed excepturi eum autem culpa mollitia, libero pariatur. Obcaecati, rem esse?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vel recusandae ipsam est quas possimus suscipit enim dolorum beatae ullam voluptate, totam assumenda tempora? Labore quia reiciendis autem a aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. In mollitia, ipsam doloremque doloribus impedit minus ipsa enim iure animi perspiciatis sint, debitis eos quo, dignissimos facere unde error non tempora? lo</p>
+
+    <!-- Dentro do elemento (srcdoc) podemos colocar um HTML. Exemplo, <h1>Este é o Curso em Video</h1>.-->
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis deserunt nihil rem? Sequi, cupiditate architecto necessitatibus, repellat dolorum sit esse quos distinctio quae rem nemo, sint obcaecati quia quo a!</p><img src='imagens/curso-em-video.jpg'</img>">
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis deserunt nihil rem? Sequi, cupiditate architecto necessitatibus, repellat dolorum sit esse quos distinctio quae rem nemo, sint obcaecati quia quo a! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga ipsa exercitationem pariatur dolorum voluptate dolore temporibus ullam similique dolor consequatur. Itaque aliquam eveniet, quas minus consectetur harum quaerat expedita quibusdam.</p>
+</body>
+</html>
