@@ -12,9 +12,14 @@
 </head>
 <body>
     <h1>Meu prmimeiro formulário</h1>
-    <form>
-        <p>Nome: <input type="text" name="Nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="Sobrenome" id="sobrenome"></p>
+    <!-- O elemento autocomplete="off", serve para desligar as sugestões que surgem nos espaços de preenchimento de dados. O elemento action="cadastro.php", serve para armazenamento dos dados do seu formulário. -->
+    <form action="cadastro.php" autocomplete="off">
+        <!-- O elemento <label for="inome"> "ETIQUETA", serve para ligar a etiqueta (Nome:) e seu respectivo espaço de preenchimento. -->
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="Nome" id="inome"></p>
+            <!-- O elemento <label for="isobrenome"> "ETIQUETA", serve para ligar a etiqueta (Sobrenome:) e seu respectivo espaço de preenchimento. -->
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
     </form>
 </body>
