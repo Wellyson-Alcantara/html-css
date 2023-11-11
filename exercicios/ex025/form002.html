@@ -7,14 +7,16 @@
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
+            <!-- O (required) serve para tornar o preenchimento daquele campo obrigatório. O (minlength e o maxlength) definem o minímo e o maxímo de caracteres ou números que podem ser digitados naquele campo. O (placeholder) deixa  anotado uma dica dentro do campo, exemplo: nome do usuário. O (autocomplete) quando usado em um <input> possui diversas fúncionalidades, exemplo: autocomplete="username", isso indica para o navegador que esse campo é para usuários.-->
             <label for="iusu">Usuário: </label>
-            <input type="text" name="usu" id="iusu">
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="10" placeholder="nome de usuário" autocomplete="username">
         </p>
         <p>
+            <!-- O (autocomplete) para senhas possui 2 opções "new-password" que significa nova senha, e "current-password" que sugere a senha de um determinado usuário que foi pré-definido antes.-->
             <label for="isen">Senha: </label>
-            <input type="password" name="sen" id="isen">
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="10" placeholder="minímo 8 caracteres" autocomplete="current-password">
         </p>
         <p>
             <input type="submit" value="Enviar">
