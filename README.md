@@ -1,4 +1,4 @@
-# <a href="https://github.com/Wellyson-Alcantara/html-css">html-css</a> <P> Acesse o meu repositório no GITHUB! </p>
+# <a href="https://github.com/Wellyson-Alcantara/html-css">html-css</a>
  Curso de HTML5 e CSS3 do CursoemVideo
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
