@@ -5,9 +5,11 @@
 
  Logo abaixo estão alguns projetos de treinamento que eu realizei! 
 
-<a href="file:///C:/Users/Wellyson/Documents/estudos/projeto-android/index.html">Projeto Android </a>
+<a href="https://github.com/Wellyson-Alcantara/projeto-android">Projeto Android </a>
 
-<a href="file:///C:/Users/Wellyson/Documents/estudos/projeto-cordel/index.html"> Projeto Cordel </a>
+<a href="https://github.com/Wellyson-Alcantara/projeto-cordel"> Projeto Cordel </a>
+
+<a href="https://github.com/Wellyson-Alcantara/projeto-android"> Projet Rede Social </a>
 
 <a href="https://wellyson-alcantara.github.io/html-css/exercicios/ex001/index.html"> Executar o exercicio 001 </a>
 
