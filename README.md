@@ -12,5 +12,3 @@
 <a href="https://github.com/Wellyson-Alcantara/projeto-android"> Projet Rede Social </a>
 
 <a href="https://wellyson-alcantara.github.io/html-css/exercicios/ex001/index.html"> Executar o exercicio 001 </a>
-
-<img src="../foto-wellyson.jpg" alt="Meu auto-retrato">
