@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.caixa1 {
+    background-color: red;
+    grid-area: 1 / 1 / 2 / 5;
+    /* 
+
+    Também é possivel usar o (grid-area) que é a simplificação do row e column em um único código, exemplo: grid-area: 1 / 1 / 2 / 5 . O código funciona da seguinte forma, o primeiro número é o grid-row-start seguido por grid-column-start, depois vêm grid-row-end e grid-column-end.
+
+    */
+}
+
+.caixa2 {
+    background-color: green;
+    grid-area: 2 / 1 / 4 / 3; 
+}
+
+.caixa3 {
+    background-color: blue;
+    grid-area: 2 / 3 / 4 / 5;
+}
